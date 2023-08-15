@@ -1,5 +1,13 @@
+.poster{
+position: relative;
+top: -25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 .posterImage{
     height: 600px;
+    border: 1px solid gray;
+    border-radius: 2px;
 }
 .posterImage > img{
     margin: auto;

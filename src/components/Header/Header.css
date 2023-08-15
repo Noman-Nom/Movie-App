@@ -4,6 +4,8 @@
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    position: relative;
+    top: -10px;
 }
 .headerLeft, .headerRight{
     display: flex;
