@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react"
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 // import Skeleton from 'react-loading-skeleton'
+// skeleton router dom not working 
+
 import "./card.css"
 import { Link } from "react-router-dom"
 
@@ -20,7 +22,7 @@ const Cards = ({movie}) => {
         ?
         <div className="cards">
             <SkeletonTheme baseColor="#202020" highlightColor="#444">
-                <Skeleton height={300} count={3} duration={2} />
+                <Skeleton height={300} count={3} duration={1} />
             </SkeletonTheme>
         </div>
         :
